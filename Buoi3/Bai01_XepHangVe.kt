@@ -4,6 +4,7 @@ package com.ute.baitap.Buoi3
 
 fun main() {
     val tuoi = 25
+
     val loaiVe = if (tuoi < 13) {
         "Ve tre em"
     } else if (tuoi < 60) {
@@ -12,5 +13,5 @@ fun main() {
         "Ve cao tuoi"
     }
 
-    println(loaiVe)
+    println("Loai ve: $loaiVe")
 }
