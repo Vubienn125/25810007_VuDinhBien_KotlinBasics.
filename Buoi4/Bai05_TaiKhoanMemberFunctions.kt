@@ -2,7 +2,7 @@
 
 package com.ute.baitap.Buoi4
 
-class TaiKhoanNganHang1(
+class TaiKhoanNganHang(
     val soTaiKhoan: String,
     soDuBanDau: Double
 ) {
@@ -30,7 +30,7 @@ class TaiKhoanNganHang1(
 }
 
 fun main() {
-    val tk = TaiKhoanNganHang1("0123456789", 1000000.0)
+    val tk = TaiKhoanNganHang("0123456789", 1000000.0)
 
     tk.napTien(500000.0)
     println("Sau khi nap 500000: ${tk.soDu}")
