@@ -1,6 +1,6 @@
 // VuDinhBien_25810007
 
-package com.ute.baitap.Buoi4
+package com.ute.baitap.Buoi4.bai04
 
 class KhachHang(
     var ho: String,
