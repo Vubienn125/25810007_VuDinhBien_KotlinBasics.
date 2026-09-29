@@ -1,6 +1,6 @@
 // VuDinhBien_25810007
 
-package com.ute.baitap.Buoi4
+package com.ute.baitap.Buoi4.bai01
 
 class SanPham(
     val tenSanPham: String,
