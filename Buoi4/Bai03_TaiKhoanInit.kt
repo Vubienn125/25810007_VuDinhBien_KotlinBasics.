@@ -1,8 +1,8 @@
 // VuDinhBien_25810007
 
-package com.ute.baitap.Buoi4
+package com.ute.baitap.Buoi4.bai06
 
-class TaiKhoanNganHang1(
+class TaiKhoanNganHang(
     val soTaiKhoan: String,
     soDuBanDau: Double
 ) {
@@ -15,32 +15,9 @@ class TaiKhoanNganHang1(
             println("Tao tai khoan $soTaiKhoan thanh cong, so du ban dau: $soDuBanDau")
         }
     }
-
-    fun napTien(soTien: Double) {
-        soDu += soTien
-    }
-
-    fun rutTien(soTien: Double): Boolean {
-        if (soDu >= soTien) {
-            soDu -= soTien
-            return true
-        }
-        return false
-    }
 }
 
 fun main() {
-    val tk = TaiKhoanNganHang1("0123456789", 1000000.0)
-
-    tk.napTien(500000.0)
-    println("Sau khi nap 500000: ${tk.soDu}")
-
-    val ketQua1 = tk.rutTien(300000.0)
-    println("Rut 300000: $ketQua1, so du: ${tk.soDu}")
-
-    val ketQua2 = tk.rutTien(5000000.0)
-    println("Rut 5000000: $ketQua2, so du: ${tk.soDu}")
-
-    tk.napTien(200000.0)
-    println("Sau khi nap 200000: ${tk.soDu}")
+    val tk1 = TaiKhoanNganHang("0123456789", 5000000.0)
+    val tk2 = TaiKhoanNganHang("9876543210", -100000.0)
 }
