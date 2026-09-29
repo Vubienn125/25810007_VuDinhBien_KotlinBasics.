@@ -1,6 +1,6 @@
 // VuDinhBien_25810007
 
-package com.ute.baitap.Buoi4
+package com.ute.baitap.Buoi4.bai02
 
 class NhanVien(
     maNhanVien: String,
